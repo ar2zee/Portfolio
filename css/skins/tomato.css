@@ -23,4 +23,12 @@ p {
 .toggle_mnu {
   background-color: #222; }
 
+svg path {
+  fill: #EFEFEF; }
+
+.top_mnu a:hover {
+  color: #FF6347; }
+.top_mnu a {
+  letter-spacing: 4px; }
+
 /*# sourceMappingURL=tomato.css.map */
