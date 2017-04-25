@@ -7,6 +7,11 @@ $('.main_head').css('height', $(window).height());	// fit all height
 	$(window).resize(function() {
 		heightDetect();
 	});
+	
+	$(".toggle_mnu").click(function() {
+  		$(".sandwich").toggleClass("active");
+	});
+
 });
 
 $(window).load(function() { 
