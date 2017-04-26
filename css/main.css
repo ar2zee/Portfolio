@@ -21,6 +21,14 @@ body textarea:required:valid {
 section,
 .main_head {
   position: relative; }
+  section h3,
+  .main_head h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 35px; }
 
 section {
   padding: 70px 0 90px; }
@@ -28,7 +36,13 @@ section {
     text-align: center;
     font-size: 24px;
     text-transform: uppercase;
-    margin: 0 0 15px; }
+    margin: 0 0 15px;
+    letter-spacing: 1px; }
+  section .personal_header {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #555; }
 
 .s_descr_wrap {
   text-align: center; }
@@ -223,9 +237,9 @@ svg {
     .top_wrapper .top_text p {
       margin: 0;
       text-transform: uppercase;
-      -webkit-animation-delay: 1.9s;
-      -moz-animation-delay: 1.9s;
-      animation-delay: 1.9s; }
+      -webkit-animation-delay: 1.7s;
+      -moz-animation-delay: 1.7s;
+      animation-delay: 1.7s; }
     .top_wrapper .top_text h1 {
       display: inline-block;
       padding: 10px 35px;
@@ -237,9 +251,9 @@ svg {
       background-color: rgba(0, 0, 0, 0.3);
       margin-left: 20px;
       margin-right: 20px;
-      -webkit-animation-delay: 1.4s;
-      -moz-animation-delay: 1.4s;
-      animation-delay: 1.4s; }
+      -webkit-animation-delay: 1.2s;
+      -moz-animation-delay: 1.2s;
+      animation-delay: 1.2s; }
 
 .toggle_mnu {
   background-color: #000; }
@@ -248,5 +262,29 @@ svg {
   padding: 50px 0;
   font-size: 13px;
   font-weight: 300; }
+
+.person {
+  text-align: center; }
+  .person img {
+    max-width: 220px;
+    display: inline-block;
+    border-radius: 50%; }
+
+.s_about p {
+  margin-bottom: 25px; }
+.s_about ul,
+.s_about li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+.s_about li {
+  margin-bottom: 10px; }
+.s_about .social_wrap {
+  margin-top: 25px; }
+
+.social_wrap li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 3px; }
 
 /*# sourceMappingURL=main.css.map */

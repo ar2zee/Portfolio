@@ -17,7 +17,8 @@ a
 	color: $color
 
 p,
-body .main_footer
+body .main_footer,
+.s_about li 
 	color: $text_color
 
 .color_element
@@ -53,9 +54,20 @@ svg
 		color: $beautiful_color
 		+kerning(5)
 
+.personal_header
+	+kerning(2)
+
 .s_descr
 	+kerning(5)
 	&::after
 		background-color: $main_color
 
+section
+	h3
+		+kerning(3)
+		color: $text-color
+
+.s_about
+	p:nth-child(even)
+		color: $color
 
