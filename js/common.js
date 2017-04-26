@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+$('.top_text h1').animated('fadeInDown', 'fadeOutUp');
+$('.top_text p , .section_header').animated('fadeInUp', 'fadeOutDown');
+
 function heightDetect() {
 $('.main_head').css('height', $(window).height());	// fit all height
 };
@@ -33,6 +36,8 @@ $('.main_head').css('height', $(window).height());	// fit all height
 });
 
 $(window).load(function() { 
-	$(".loader_inner").fadeOut(); 
-	$(".loader").delay(400).fadeOut("slow"); 
+
+	$(".loader_inner").fadeOut();
+	$(".loader").delay(400).fadeOut("slow");
+
 });
