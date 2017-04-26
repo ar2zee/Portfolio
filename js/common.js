@@ -19,11 +19,15 @@ $('.main_head').css('height', $(window).height());	// fit all height
 
 	$('.toggle_mnu').click(function() {
 		if ( $('.top_mnu').is(':visible') ) {
+			$('.top_text').removeClass('h-opacify');
 			$('.top_mnu').fadeOut(600);
 			$('.top_mnu li a').removeClass('fadeInUp animated');
+			// $('svg path').css('fill', '#000');
 		} else {
+			$('.top_text').addClass('h-opacify');
 			$('.top_mnu').fadeIn(600);
 			$('.top_mnu li a').addClass('fadeInUp animated');
+			// $('svg path').css('fill', '#fff');
 		}
 	});
 });

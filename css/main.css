@@ -22,6 +22,31 @@ section,
 .main_head {
   position: relative; }
 
+section {
+  padding: 70px 0 90px; }
+  section h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 15px; }
+
+.s_descr_wrap {
+  text-align: center; }
+  .s_descr_wrap .s_descr {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 130px; }
+    .s_descr_wrap .s_descr::after {
+      content: "";
+      height: 1px;
+      left: 50%;
+      margin-left: -75px;
+      margin-top: 60px;
+      position: absolute;
+      width: 150px; }
+
 .main_head {
   min-height: 620px;
   padding-top: 20px; }
@@ -190,13 +215,15 @@ svg {
       font-weight: bold;
       font-size: 2.8em;
       background-color: rgba(0, 0, 0, 0.3);
-      box-shadow: rgba(0, 0, 0, 0.3) 0 0 0 1000px;
       margin-left: 20px;
-      margin-right: 20px;
-      padding-left: 10px;
-      padding-right: 10px; }
+      margin-right: 20px; }
 
 .toggle_mnu {
   background-color: #000; }
+
+.main_footer {
+  padding: 50px 0;
+  font-size: 13px;
+  font-weight: 300; }
 
 /*# sourceMappingURL=main.css.map */
