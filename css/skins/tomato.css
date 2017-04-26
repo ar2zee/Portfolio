@@ -20,9 +20,6 @@ p {
 .main_color_bg {
   background-color: #222; }
 
-.toggle_mnu {
-  background-color: #222; }
-
 svg path {
   fill: #EFEFEF; }
 
@@ -30,5 +27,9 @@ svg path {
   color: #FF6347; }
 .top_mnu a {
   letter-spacing: 4px; }
+
+.top_text p {
+  color: #EFEFEF;
+  letter-spacing: 5px; }
 
 /*# sourceMappingURL=tomato.css.map */
