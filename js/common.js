@@ -1,13 +1,28 @@
 $(document).ready(function() {
 
+
+
+	$('#portfolio_grid').mixItUp();
+
+$('.s_portfolio li').click(function() {
+	$('.s_portfolio li').removeClass('active');
+	$(this).addClass('active');
+});
+
+
+
 $('.popup').magnificPopup({type: 'image'});
+$('.popup_content').magnificPopup({type: 'inline', midClick: true});
 
 
 $('.section_header').animated('fadeInUp', 'fadeOutDown');
 
 $('.animation_1').animated('flipInY', 'flipOutY');
-$('.animation_2').animated('fadeInLeft', 'fadeOutLeft');
-$('.animation_3').animated('fadeInRight', 'fadeOutRight');
+$('.animation_2').animated('fadeInLeft', 'fadeOutDown');
+$('.animation_3').animated('fadeInRight', 'fadeOutRDown');
+
+$(' .left .resume_item').animated('fadeInLeft', 'fadeOutDown');
+$(' .right .resume_item').animated('fadeInRight', 'fadeOutDown');
 
 function heightDetect() {
 $('.main_head').css('height', $(window).height());	// fit all height
@@ -39,6 +54,12 @@ $('.main_head').css('height', $(window).height());	// fit all height
 			// $('svg path').css('fill', '#fff');
 		}
 	});
+
+			$('.portfolio_item').each(function(i) {
+			$(this).find('a').attr('href', '#work_' + i);
+			$(this).find('.podrt_descr').attr('id', 'work_' + i);
+		});
+
 });
 
 $(window).load(function() { 
